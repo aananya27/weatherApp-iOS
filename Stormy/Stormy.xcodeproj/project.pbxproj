@@ -78,9 +78,9 @@
 				BE1B29CF1E5DF3BB00F4B17C /* WeatherIcon.swift */,
 				BE1B29D11E5DF99F00F4B17C /* CurrentWeatherViewModel.swift */,
 				D4DFBA7A20B8919900A03E62 /* JSONDownloader.swift */,
-				D4DFBA7C20BA49A500A03E62 /* DarkSkyError.swift */,
 				D4DFBA7E20BA4FC600A03E62 /* darkSkyAPIClient.swift */,
 				D4DFBA8020BA51DF00A03E62 /* coordinate.swift */,
+				D4DFBA7C20BA49A500A03E62 /* DarkSkyError.swift */,
 			);
 			path = Stormy;
 			sourceTree = "<group>";

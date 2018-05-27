@@ -3,8 +3,9 @@
 //  Stormy
 //
 //  Created by Aananya on 27/05/18.
-//  Copyright © 2018 Treehouse. All rights reserved.
+//  Copyright © 2017 Aananya. All rights reserved.
 //
+
 
 import Foundation
 struct Coordinate{
