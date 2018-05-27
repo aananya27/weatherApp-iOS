@@ -23,7 +23,17 @@ class darkSkyAPIClient{
         let request = URLRequest(url: url)
         let task = downloader.JSONTask(with: request) { json , error in
             //do more here.. delegate to currentweaher.swift file
+            guard let json = json else {
+                completion(nil, error)
+                return
+            }
+            guard let  currentWeatherJson = json["currently"] as? [String:AnyObject],
+                let currentWeather = CurrentWeather(json: currentWeatherJson) else {
+                    completion(nil, .jsonParsingFailure)
+            }
+            completion(currentWeather ,nil)
         }
+        task.resume()
         
     }
 }
