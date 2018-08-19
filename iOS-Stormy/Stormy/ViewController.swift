@@ -26,9 +26,15 @@ class ViewController: UIViewController {
         let location = "37.8267,-122.4233"
         let forecastUrl = URL(string: location, relativeTo: base)
         
+        //bad practice for now!
+        let weatherData = try! Data(contentsOf: forecastUrl!)
+        // print(weatherData)
+        let json = try! JSONSerialization.jsonObject(with: weatherData, options: [])
+        print(json)
+        
         super.viewDidLoad()
-            let currentWeather = CurrentWeather(temperature: 85.0, humidity: 0.8, precipProbability: 10, summary: "hot", icon: "clear-day")
-            let viewModel = CurrentWeatherViewModel(model: currentWeather)
+        let currentWeather = CurrentWeather(temperature: 85.0, humidity: 0.8, precipProbability: 10, summary: "hot", icon: "clear-day")
+        let viewModel = CurrentWeatherViewModel(model: currentWeather)
         displayWeather(using: viewModel)
     }
     func displayWeather(using viewModel: CurrentWeatherViewModel){
