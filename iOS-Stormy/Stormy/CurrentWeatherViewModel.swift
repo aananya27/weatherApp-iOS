@@ -3,7 +3,7 @@
 //  Stormy
 //
 //  Created by Aananya on 12/08/18.
-//  Copyright © 2018 Treehouse. All rights reserved.
+// Copyright © 2018 aananya. All rights reserved.
 //
 
 import Foundation

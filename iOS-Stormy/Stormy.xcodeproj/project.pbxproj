@@ -14,6 +14,7 @@
 		972470B920A27F0100050DF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 972470B720A27F0100050DF7 /* LaunchScreen.storyboard */; };
 		D46229BB211FFC23000E37CA /* CurrentWeather.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46229BA211FFC23000E37CA /* CurrentWeather.swift */; };
 		D46229BD2120101F000E37CA /* CurrentWeatherViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46229BC2120101F000E37CA /* CurrentWeatherViewModel.swift */; };
+		D46229BF2129C466000E37CA /* JSONDownloader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46229BE2129C465000E37CA /* JSONDownloader.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 		972470BA20A27F0100050DF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D46229BA211FFC23000E37CA /* CurrentWeather.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeather.swift; sourceTree = "<group>"; };
 		D46229BC2120101F000E37CA /* CurrentWeatherViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentWeatherViewModel.swift; sourceTree = "<group>"; };
+		D46229BE2129C465000E37CA /* JSONDownloader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JSONDownloader.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		972470AD20A27F0000050DF7 /* Stormy */ = {
 			isa = PBXGroup;
 			children = (
+				D46229BE2129C465000E37CA /* JSONDownloader.swift */,
 				972470AE20A27F0000050DF7 /* AppDelegate.swift */,
 				972470B020A27F0000050DF7 /* ViewController.swift */,
 				972470B220A27F0000050DF7 /* Main.storyboard */,
@@ -143,6 +146,7 @@
 			files = (
 				972470B120A27F0000050DF7 /* ViewController.swift in Sources */,
 				D46229BB211FFC23000E37CA /* CurrentWeather.swift in Sources */,
+				D46229BF2129C466000E37CA /* JSONDownloader.swift in Sources */,
 				972470AF20A27F0000050DF7 /* AppDelegate.swift in Sources */,
 				D46229BD2120101F000E37CA /* CurrentWeatherViewModel.swift in Sources */,
 			);
